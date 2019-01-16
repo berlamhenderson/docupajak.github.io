@@ -4,7 +4,7 @@
  <title>Wikipajak.org</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-01-16T11:20:36+08:00</updated>
+ <updated>2019-01-16T17:27:39+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -38,6 +38,12 @@ Terima kasih&lt;/p&gt;
    <updated>2019-01-01T00:00:00+08:00</updated>
    <id>http://localhost:4000/blog/000002</id>
    <content type="html">&lt;p&gt;Tinggal komunikasi dengan  customernya apakah dia tetap minta faktur pajk dg NPWP dia kalau tidak ya terbutkan dengan npwp 000 saja&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;halo&lt;/li&gt;
+  &lt;li&gt;selamat&lt;/li&gt;
+  &lt;li&gt;pagi&lt;/li&gt;
+  &lt;li&gt;semua&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  

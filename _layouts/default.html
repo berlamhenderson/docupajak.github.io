@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-{% include head.html %}
+{% include -head.html %}
 
 <body>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        {% include -sidebar.html %}
 
+        <!-- Page Content Holder -->
+        <div id="content">
 
-  <div id="window">
-    <div id="header">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+            {% include -navigation.html %}
+            <!-- content message -->
+            {{ content }}
+        </div>
     </div>
-    <div id="sidebar">halo</div>
-    <div id="content"> 
-      {{ content }}  
 
-      
+  {% include -footer.html %}
 
-
-    </div>
-  </div>
-
-
-  {% include footer.html %}
-  </div>
   <!-- end of content    -->
 
 
-  {% include footer-js.html %}
+  {% include -footer-js.html %}
 </body>
 
 </html>
