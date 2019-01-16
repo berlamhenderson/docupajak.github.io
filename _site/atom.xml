@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Wikipajak.org</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-01-16T11:20:36+08:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Malah ribet sendiri kalau ngotot masalah &quot;seharusnya&quot;. Ini bisa dibuat simpel kok...</title>
+   <link href="http://localhost:4000/blog/000004/"/>
+   <updated>2019-01-01T00:00:00+08:00</updated>
+   <id>http://localhost:4000/blog/000004</id>
+   <content type="html">&lt;p&gt;Malam teman2
+Apakah ada yg punya skema import pph 23? Klo ada yg punya boleh tolong dishare..
+Terima kasih&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Malah ribet sendiri kalau ngotot masalah &quot;seharusnya&quot;. Ini bisa dibuat simpel kok...</title>
+   <link href="http://localhost:4000/blog/000003/"/>
+   <updated>2019-01-01T00:00:00+08:00</updated>
+   <id>http://localhost:4000/blog/000003</id>
+   <content type="html">&lt;p&gt;Ndak ribet, cuma minta aktif saja kok. Kita bantu DJP dan lawan transaksi biar mencerminkan keadaan sesungguhnya, bahwa NPWP dia seharusnya masih aktif.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Malah ribet sendiri kalau ngotot masalah &quot;seharusnya&quot;. Ini bisa dibuat simpel kok...</title>
+   <link href="http://localhost:4000/blog/000002/"/>
+   <updated>2019-01-01T00:00:00+08:00</updated>
+   <id>http://localhost:4000/blog/000002</id>
+   <content type="html">&lt;p&gt;Tinggal komunikasi dengan  customernya apakah dia tetap minta faktur pajk dg NPWP dia kalau tidak ya terbutkan dengan npwp 000 saja&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bagaimana cara mengubah PTKP</title>
+   <link href="http://localhost:4000/blog/000001/"/>
+   <updated>2019-01-01T00:00:00+08:00</updated>
+   <id>http://localhost:4000/blog/000001</id>
+   <content type="html">&lt;p&gt;PTKP diubah dengan cara mengubah PTKP yang ada avatarnya&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
