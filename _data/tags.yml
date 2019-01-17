@@ -1,0 +1,13 @@
+tags:
+  - title: KUP
+    abbr: Ketentuan Umum & Tata Cara Perpajakan
+    avatar: kup
+    weight: 2
+  - title: PPN
+    abbr: Pajak Pertambahan Nilai
+    avatar: ppn
+    weight: 1
+  - title: PPh
+    abbr: Pajak Penghasilan
+    avatar: pph
+    weight: 3

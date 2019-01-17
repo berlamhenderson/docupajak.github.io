@@ -41,9 +41,9 @@ detach:  false
 show_dir_listing: false
 
 collections:
-  faqs:
+  channel:
     output: true
-    permalink: /faqs/:name
+    permalink: slug/
 
 defaults:
   -

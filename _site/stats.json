@@ -10,7 +10,7 @@
 {
 	"totalPosts":4,
 	"totalCategories": 0,
-	"totalTags": 0,
+	"totalTags": 3,
 	"totalWords": 78,
 	"averageWordsPerPost": 19,
 	"firstPost": {
@@ -27,6 +27,18 @@
 		
 	],
 	"postsPerTag":[
+		
+			
+			
+			{ "name": "KUP", "size":2 }
+		
+			
+			,
+			{ "name": "PPh", "size":1 }
+		
+			
+			,
+			{ "name": "PPN", "size":1 }
 		
 	],
 	"dates":"2019-01-01,2019-01-01,2019-01-01,2019-01-01"

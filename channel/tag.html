@@ -1,0 +1,9 @@
+---
+layout: default
+title: Home
+navigation_weight: 1
+sidebar: true
+---
+{% for item in site.data.tags.tags %}
+<p>{{item.abbr}}</p>
+{% endfor %}

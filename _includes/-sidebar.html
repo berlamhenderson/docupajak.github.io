@@ -1,18 +1,14 @@
 <nav id="sidebar">
+    <!-- title -->
     <div class="sidebar-header">
-        <h3>Bootstrap Sidebar</h3>
+        <h3>{{site.title}}</h3>
     </div>
 
+    <!-- navigation left -->
     <div class="col-left">
-
-        <div class="col-content">
-
+        <div class="col-content">halo
             <div class="messages">
-
-
                 <li>
-
-
                     <div class="avatar">
                         <div class="avatar-image">
                             <div class="status online"></div><img src="./img/avatar-2.png">
@@ -20,197 +16,22 @@
                     </div>
                     <h3>Nancy Scott</h3>
                     <p>Be there soon.</p>
-
                 </li>
-
+                {% assign itemtags = site.data.tags.tags | sort: 'weight'  %}
+                {% for item in itemtags %}
                 <li>
-
                     <div class="avatar">
                         <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar-3.png">
+                            <div class="status online"></div><img src="{{ relBase }}/assets/avatar/{{item.avatar}}.png">
                         </div>
                     </div>
-                    <h3>Cynthia Castro</h3>
-                    <p>You: Yep, let's do it!</p>
-
+                    <h3>{{item.title}}</h3>
+                    <p>{{item.abbr}}</p>
                 </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status online"></div><img src="./img/avatar-4.png">
-                        </div>
-                    </div>
-                    <h3>Philip Nelson</h3>
-                    <p>How does it look? I started making it a while ago</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status online"></div><img src="./img/avatar-5.png">
-                        </div>
-                    </div>
-                    <h3>Theresa Hudson</h3>
-                    <p>Goddamn Aliens! &#128514;</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar-4.png">
-                        </div>
-                    </div>
-                    <h3>Rebecca Jackson</h3>
-                    <p>Hello</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status online"></div><img src="./img/avatar-2.png">
-                        </div>
-                    </div>
-                    <h3>Ethan Gitson</h3>
-                    <p>You: Send it again</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar.png">
-                        </div>
-                    </div>
-                    <h3>Betty Scott</h3>
-                    <p>&#128512;</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar.png">
-                        </div>
-                    </div>
-                    <h3>Hannah Shaw</h3>
-                    <p>Ohh yes! i was looking for that somewhere</p>
-
-                </li>
-
-                <li>
-
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status online"></div><img src="./img/avatar-5.png">
-                        </div>
-                    </div>
-                    <h3>Nancy Scott</h3>
-                    <p>Be there soon.</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar-4.png">
-                        </div>
-                    </div>
-                    <h3>Cynthia Castro</h3>
-                    <p>You: Yep, let's do it!</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status online"></div><img src="./img/avatar-3.png">
-                        </div>
-                    </div>
-                    <h3>Philip Nelson</h3>
-                    <p>How does it look?</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status online"></div><img src="./img/avatar-2.png">
-                        </div>
-                    </div>
-                    <h3>Theresa Hudson</h3>
-                    <p>Goddamn Aliens! &#128514;</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar.png">
-                        </div>
-                    </div>
-                    <h3>Rebecca Jackson</h3>
-                    <p>Hello</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status online"></div><img src="./img/avatar-5.png">
-                        </div>
-                    </div>
-                    <h3>Ethan Gitson</h3>
-                    <p>You: Send it again</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar-4.png">
-                        </div>
-                    </div>
-                    <h3>Betty Scott</h3>
-                    <p>&#128512;</p>
-
-                </li>
-
-                <li>
-
-                    <div class="avatar">
-                        <div class="avatar-image">
-                            <div class="status offline"></div><img src="./img/avatar.png">
-                        </div>
-                    </div>
-                    <h3>Hannah Shaw</h3>
-                    <p>Ohh yes! i was looking for that</p>
-
-                </li>
-
-
+                {% endfor %}
             </div>
-
         </div>
-
     </div>
-
     <ul class="list-unstyled CTAs">
         <li>
             <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
